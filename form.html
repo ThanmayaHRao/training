@@ -8,14 +8,14 @@
 <body>
     <h1><u>Registration Form</u></h1>
     <form >
-        <label for="">FirstName:</label>
-        <input type="text">
+        <label for="fname">FirstName:</label>
+        <input type="text" id="fname" placeholder="enter user first name" name="fname">
         <br><br>
-        <label for="">LastName:</label>
-        <input type="text">
+        <label for="lname">LastName:</label>
+        <input type="text" id="lname" placeholder="enter user last name" name="lname">
         <br><br>
-        <label for="">Email:</label>
-        <input type="email">
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" placeholder="enter user Email">
         <br><br>
         <label for="">Phone Number:</label>
         <input type="tel">
@@ -37,18 +37,21 @@
         <textarea name="" id="" cols="73" rows="8"></textarea>
         <br><br>
         <label for="">Gender:</label>
-        <input type="radio" name="gen"><span>Male</span>
-        <input type="radio" name="gen"><span>Female</span>
-        <input type="radio" name="gen"><span>Others</span>
+        <input type="radio" name="gen" value="Male"><span>Male</span>
+        <input type="radio" name="gen" value="Female"><span>Female</span>
+        <input type="radio" name="gen" value="Others"><span>Others</span>
         <br><br>
         <label for="">Language:</label>
-        <input type="checkbox"><span>English</span>
-        <input type="checkbox"><span>Kananda</span>
-        <input type="checkbox"><span>Hindi</span>
-        <input type="checkbox"><span>Telugu</span>
+        <input type="checkbox" name="lang" value="English"><span>English</span>
+        <input type="checkbox" name="lang" value="Kannanda"><span>Kannanda</span>
+        <input type="checkbox" name="lang" value="Hindi"><span>Hindi</span>
+        <input type="checkbox" name="lang" value="Telugu"><span>Telugu</span>
         <br><br>
         <label for="">Upload CV:</label>
         <input type="file">
+        <br><br>
+        <input type="submit">
+        <input type="reset">
     </form>
 </body>
 </html>
