@@ -7,7 +7,10 @@
 </head>
 <body>
     <h1><u>Registration Form</u></h1>
-    <form >
+    <form method="get" action="">
+        <label for="">Institute:</label>
+        <input type="text" name="institute" placeholder="enter institute name" value="Eclr" readonly disabled>
+        <br><br>
         <label for="fname">FirstName:</label>
         <input type="text" id="fname" placeholder="enter user first name" name="fname">
         <br><br>
@@ -17,8 +20,8 @@
         <label for="mail">Email:</label>
         <input type="email" id="mail" placeholder="enter user Email">
         <br><br>
-        <label for="">Phone Number:</label>
-        <input type="tel">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" maxlength="10" placeholder="enter user phone number">
         <br><br>
         <label for="">DOB:</label>
         <input type="date" >
@@ -33,8 +36,8 @@
         <label for="">Confirm Password:</label>
         <input type="number">
         <br><br>
-        <label for="">Address:</label>
-        <textarea name="" id="" cols="73" rows="8"></textarea>
+        <label for="add">Address:</label>
+        <textarea name=""  cols="33" rows="4" id="add"></textarea>
         <br><br>
         <label for="">Gender:</label>
         <input type="radio" name="gen" value="Male"><span>Male</span>
@@ -49,6 +52,26 @@
         <br><br>
         <label for="">Upload CV:</label>
         <input type="file">
+        <br><br>
+        <label for="country">Countries:</label>
+        <select  id="country" name="Countries" id="" multiple>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+        </select>
+        <br>
+        <br>
+        <label for="">Programming languages</label>
+        <input type="text" placeholder="Select the programming languages" list="Language">
+        <datalist id="Language">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">JavaScript</option>
+            <option value="Java">Java</option>
+        </datalist>
         <br><br>
         <input type="submit">
         <input type="reset">
