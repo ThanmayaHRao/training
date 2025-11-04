@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get" align="center" style="background-color: tomato;">
+        <fieldset>
+            <legend>Field set</legend>
+                   <h1>Student Registration Form</h1>
+        <label for="roll">Roll Number:</label>
+        <input id="roll" type="text"><br><br>
+        <label for="name">Student Name:</label>
+        <input id="name" type="text" placeholder="First name"> - <input id="name" type="text" placeholder="last name">
+        <br><br>
+        <label for="dob">Date Of Birth:</label>
+        <input id="dob" type="date">
+        <br><br>
+        <label for="countrycode" >Mobile no :</label>
+        <select name="countrycode" id="countrycode" >
+            <option value="+91">+91</option>
+            <option value="+01">+01</option>
+            <option value="+44">+44</option>    
+        </select> -
+        <input type="tel">
+        <br><br>
+        <label for="mail">Email id:</label>
+        <input id="mail" type="email" placeholder="">
+        <br><br>
+        <label for="">Password</label>
+        <input type="password">
+        <br><br>
+        <label for="">Gender :</label>
+        <input type="radio" name="gender" value="Male"><span>Male</span>
+        <input type="radio" name="gender" value="Female"><span>Female</span>
+        <br><br>
+        <label for="">Department :</label>
+        <input type="checkbox"><span>CSE</span>
+        <input type="checkbox"><span>ECE</span>
+        <input type="checkbox"><span>MECH</span>
+        <input type="checkbox"><span>CIVIL</span>
+        <br><br>
+        <label for="cor">Course :</label>
+        <input type="text" list="cor" placeholder="----Select the courses -----">
+        <datalist id="cor">
+            <option value="BTech">BTech</option>
+            <option value="MTech">MTech</option>
+            <option value="MBA">MBA</option>
+            <option value="MCA">MCA</option>
+        </datalist>
+        <br><br>
+        <label for="">Student photo</label>
+        <input type="file">
+        <br><br>
+        <label  for="city">City :</label>
+        <input id="city" type="text">
+        <br><br>
+        <label for="add">Address :</label>
+        <textarea itemid="add" name="" id="" cols="30" rows="4"></textarea>
+        <br><br>
+        <input type="submit">
+        </fieldset>
+ 
+
+
+
+    </form>
+</body>
+</html>
