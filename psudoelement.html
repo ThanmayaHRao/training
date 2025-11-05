@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        p::first-letter
+        {
+            color: red;
+            background-color: aquamarine;
+            font-family: cursive;
+        }
+        p::first-line
+        {
+            color: blue;
+            background-color: yellow;
+        }
+
+        p::before{
+            /* content: "ExcelR"; */
+            content: "🤷♂️";
+        }
+
+        p::after{
+            /* content: "END"; */
+            /* content: url("https://cdn.pixabay.com/photo/2025/10/17/09/29/nature-9899712_1280.jpg"); */
+            content: "🙌";
+        }
+
+        p::selection
+        {
+            background-color: yellow;
+            color: red;
+        }
+
+        ul li::marker , ol li::marker , details summary::marker{
+            color: red;
+            font-size: 19px;
+        }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, impedit
+      consequuntur! Voluptates, inventore ratione adipisci error maxime, dolore
+      excepturi distinctio quaerat, possimus facere ullam? Autem ipsam quisquam
+      corrupti similique maxime natus reiciendis repellendus magni laborum error
+      facilis quod cumque, suscipit ducimus iusto, vel neque reprehenderit animi
+      sequi ea ratione laudantium. Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Modi nulla, reprehenderit sapiente ea ducimus commodi
+      rerum excepturi consectetur nihil quaerat nostrum obcaecati ad repellendus
+      quo unde dicta, veniam ex officia. Dicta, fugit quod et quasi doloremque
+      iure sequi cumque omnis ullam expedita nostrum error, unde saepe! Rerum
+      fuga dolorum voluptates aut! Accusantium vitae velit nesciunt accusamus
+      magnam assumenda ut saepe expedita illum sunt minima et architecto sed
+      voluptas unde, similique sapiente exercitationem rem, excepturi
+      necessitatibus animi modi! In fuga quod soluta eligendi laudantium nostrum
+      error, dolorum, consequatur iste repellendus, officiis libero magni
+      aspernatur quia. Consequuntur perspiciatis laudantium provident pariatur
+      laborum.
+    </p>
+
+    <ul>
+        <li>list1</li>
+        <li>list2</li>
+        <li>list3</li>
+    </ul>
+
+    <ol>
+        <li>list1</li>
+        <li>list2</li>
+        <li>list3</li>
+    </ol>
+
+    <details>
+        <summary>HTML</summary>
+        <p>Lorem ipsum dolor sit.</p>
+    </details>
+  </body>
+</html>
