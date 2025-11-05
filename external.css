@@ -5,3 +5,19 @@ h2{
     border-radius: 10px;
     padding: 10px;
 }
+#test1{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    border: blue 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.test2{
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    border: purple 2px solid;
+    border-radius: 10px;
+    padding: 10px;   
+}
+/* lfveevheehvwoeuhthis is how comments are written in css */
