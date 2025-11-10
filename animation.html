@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        .animate{
+            width: 120px;
+            height: 120px;
+            background-color: orangered;
+            animation-duration: 4s;
+            animation-name: changeColor;
+            animation-iteration-count: infinite;
+            position: relative;
+        }
+        /* @keyframes changeColor {
+            from{
+                      width: 120px;
+            height: 120px;
+            background-color: orangered;
+            }
+            to{
+                      width: 120px;
+            height: 120px;
+            top: 150px;
+            left: 450px;
+            background-color: blue;
+            }
+            
+        } */
+         @keyframes changeColor {
+            0%{
+                top: 0px;
+                left: 0px;
+            }
+            50%{
+                top: 0px;
+                left: 400px;
+                transform: rotate(360deg);
+            }
+             75%{
+                top: 400px;
+                left:400px;
+                border-radius: 50%;
+                background-color: purple;
+            }
+             100%{
+                top: 400px;
+                left: 0px;
+                background-color: yellow;
+            }
+            0%{
+                top: 0px;
+                left: 0px;
+                transform: skew(60deg);
+            }
+         }
+        
+    </style>
+</head>
+<body>
+    <div class="animate">
+
+    </div>
+</body>
+</html>
